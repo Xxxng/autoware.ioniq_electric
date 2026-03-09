@@ -1,0 +1,34 @@
+repositories:
+  # universe
+  universe/autoware_universe.ioniq_electric:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_universe.git
+    version: 0.41.2/ioniq_electric
+
+  # launcher
+  launcher/autoware_launch.ioniq_electric:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_launch.git
+    version: 0.41.0/ioniq_electric
+
+  # sensor_kit
+  sensor_kit/ioniq_electric_sensor_kit_launch:
+    type: git
+    url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
+    version: main
+
+  # vehicle
+  vehicle/ioniq_electric_vehicle_launch:
+    type: git
+    url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+    version: main
+
+  launcher/dss_autoware_tools:
+    type: git
+    url: https://gitlab.divinetech.dev/public-group/dss_autoware_tools
+    version: main
+
+  launcher/autoware_launch.ioniq_electric/sensor_component:
+    type: git
+    url: https://gitlab.divinetech.dev/public-group/dss_autoware_tools
+    version: main
